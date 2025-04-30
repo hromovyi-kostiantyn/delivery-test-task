@@ -4,7 +4,7 @@ Laravel simple application that calculating fee for delivery using a strategy pa
 
 ## Stack
 
-- PHP 8.2
+- PHP 8.4
 - Laravel 12
 - Docker (Sail)
 
@@ -26,14 +26,14 @@ composer install
 cp .env.example .env
 ```
 
-4. Generate application key:
-```bash
-sail artisan key:generate
-```
-
-5. Start the server:
+4. Start the app:
 ```bash
 sail up -d
+```
+
+5. Generate application key:
+```bash
+sail artisan key:generate
 ```
 
 ## API example
